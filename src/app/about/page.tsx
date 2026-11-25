@@ -6,37 +6,37 @@ import Markdown from "react-markdown";
 
 const content = `# About Me
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/db7abbe3-aa5c-433e-a16d-cbf137d1c9e5.png/public)
+![Alfredo](https://pbs.twimg.com/profile_images/2061655592607813632/mGiOHJhJ.jpg)
 
-Hey there! I'm Samantha, a 28-year-old former corporate warrior who decided to ditch the 9-to-5 grind and embark on an adventure of a lifetime. After years of hustling in a high-pressure job, I realized that life is too short to be stuck in an office, staring at spreadsheets all day.
+Primer párrafo borrado
 
-So I took a leap of faith, quit my cushy job in Singapore, and decided to see the world on my own terms. No more stuffy meetings or rigid schedules – just me, my backpack, and an open road ahead.
+Segundo párrafo borrado
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/6b080e65-2329-4a36-ad5c-0a6af8d9aeb1.png/public)
+![Alfredo](http://photos.google.com/archive/photo/AF1QipP5M9r13iCJvRyxqBzcfZ9dTHelzKW2iCCU6bmm)
 
-This blog is where I'll be documenting my travels, sharing my experiences, and hopefully inspiring others to follow their wanderlust. From trekking through remote villages to savoring local cuisines, I'm on a mission to immerse myself in different cultures and create memories that will last a lifetime.
+Tercer párrafo borrado. Son cuatro líneas de texto tomando como referencia la vista en vs code con word wrap
 
-But this journey isn't just about checking off destinations from a bucket list. It's about self-discovery, personal growth, and finding the courage to live life on my own terms. I'll be honest and raw, sharing the highs and lows, the moments of pure bliss and the inevitable challenges that come with solo travel.
+Cuarto párrafo. Mismas cuatro líneas
 
-So join me on this adventure, and let's explore the world together! Who knows, maybe my stories will inspire you to take that leap of faith and pursue your own dreams, whatever they may be.
+Qunto párrafo
 
 Let's go on an adventure!
 
-Love,
+With no love,
 
-Samantha`;
+Alfredo`;
 
 export async function generateMetadata() {
   return {
-    title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
+    title: "Sobre el autor",
+    description: "Quién escribe estas líneas y por qué. Esa es la promesa, no necesariamente cierta",
     openGraph: {
-      title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
+      title: "Quién soy",
+      description: "Quién escribe estas líneas y por qué. Esa es la promesa, no necesariamente cierta",
       images: [
         signOgImageUrl({
-          title: "Samantha",
-          label: "About Me",
+          title: "Alfredo",
+          label: "Sobre el Autor",
           brand: config.blog.name,
         }),
       ],
